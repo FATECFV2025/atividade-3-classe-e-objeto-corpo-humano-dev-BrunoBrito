@@ -20,10 +20,11 @@ public class App {
         System.out.printf("Informe um número: ");
         v1 = ler.nextInt();
 
-        System.out.printf(v2+" "+v1);
+
     }
     public static void main(String[] args) throws Exception {
-        funcao_teste();
+        CorpoHumano c1=new CorpoHumano(0, 0);
+        c1.setMassa(2);
 
 
     }
